@@ -72,6 +72,7 @@ references:
   fullName: _1Erronka_API.DTOak.EskariaProduktuaSortuDto
 - uid: _1Erronka_API.DTOak.LangileaDto
   commentId: T:_1Erronka_API.DTOak.LangileaDto
+  parent: _1Erronka_API.DTOak
   href: _1Erronka_API.DTOak.LangileaDto.html
   name: LangileaDto
   nameWithType: LangileaDto

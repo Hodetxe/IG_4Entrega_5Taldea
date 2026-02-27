@@ -17,6 +17,15 @@ items:
   - uid: _1Erronka_API.Controllers.EskariakController
     name: EskariakController
     type: Class
+  - uid: _1Erronka_API.Controllers.LoginController
+    name: LoginController
+    type: Class
+  - uid: _1Erronka_API.Controllers.LoginErantzuna
+    name: LoginErantzuna
+    type: Class
+  - uid: _1Erronka_API.Controllers.LoginRequest
+    name: LoginRequest
+    type: Class
   - uid: _1Erronka_API.Controllers.MahaiakController
     name: MahaiakController
     type: Class

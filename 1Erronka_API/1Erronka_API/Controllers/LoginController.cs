@@ -5,6 +5,10 @@ using Microsoft.AspNetCore.Mvc;
 using System.Text;
 using System.Security.Cryptography;
 
+namespace _1Erronka_API.Controllers
+
+{
+
 /// <summary>
     /// Erabiltzaileen saio-hasiera kudeatzen duen kontroladorea.
     /// </summary>
@@ -126,3 +130,5 @@ using System.Security.Cryptography;
         /// </summary>
         public LangileaDto? Data { get; set; }
     }
+
+}
