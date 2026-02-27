@@ -5,6 +5,9 @@ using _1Erronka_API.Modeloak;
 
 namespace _1Erronka_API.Controllers
 {
+    /// <summary>
+    /// Eskariak kudeatzeko kontroladorea.
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class EskariakController : ControllerBase
@@ -25,6 +28,11 @@ namespace _1Erronka_API.Controllers
             _osagaiaRepo = osagaiaRepo;
         }
 
+        /// <summary>
+        /// Eskaria berri bat sortzen du.
+        /// </summary>
+        /// <param name="dto">Eskariaren datuak.</param>
+        /// <returns>Sortutako eskariaren informazioa edo errore mezua.</returns>
         [HttpPost]
         public IActionResult Sortu([FromBody] EskariaSortuDto dto)
         {
@@ -119,7 +127,12 @@ namespace _1Erronka_API.Controllers
             return Ok(erantzuna);
         }
 
-
+        /// <summary>
+        /// Eskaria bat eguneratzen du.
+        /// </summary>
+        /// <param name="id">Eskariaren IDa.</param>
+        /// <param name="dto">Eskariaren datu berriak.</param>
+        /// <returns>True ondo badoa, bestela errorea.</returns>
         [HttpPut("{id}")]
         public IActionResult Eguneratu(int id, [FromBody] EskariaSortuDto dto)
         {
@@ -226,6 +239,11 @@ namespace _1Erronka_API.Controllers
             }
         }
 
+        /// <summary>
+        /// Eskaria bat ezabatzen du.
+        /// </summary>
+        /// <param name="id">Eskariaren IDa.</param>
+        /// <returns>True ondo badoa, bestela errorea.</returns>
         [HttpDelete("{id}")]
         public IActionResult Ezabatu(int id)
         {
@@ -264,6 +282,11 @@ namespace _1Erronka_API.Controllers
             }
         }
 
+        /// <summary>
+        /// Eskaria baten xehetasunak lortzen ditu.
+        /// </summary>
+        /// <param name="id">Eskariaren IDa.</param>
+        /// <returns>Eskariaren informazioa DTO formatuan.</returns>
         [HttpGet("{id}")]
         public IActionResult GetEskaria(int id)
         {
@@ -288,6 +311,11 @@ namespace _1Erronka_API.Controllers
             return Ok(dto);
         }
 
+        /// <summary>
+        /// Erreserba baten eskari guztiak lortzen ditu.
+        /// </summary>
+        /// <param name="erreserbaId">Erreserbaren IDa.</param>
+        /// <returns>Erreserbaren eskarien zerrenda.</returns>
         [HttpGet("erreserba/{erreserbaId}")]
         public IActionResult GetEskariakByErreserba(int erreserbaId)
         {
@@ -311,7 +339,10 @@ namespace _1Erronka_API.Controllers
             return Ok(dtoList);
         }
 
-
+        /// <summary>
+        /// Eskaria guztiak lortzen ditu.
+        /// </summary>
+        /// <returns>Eskaria guztien zerrenda.</returns>
         [HttpGet]
         public IActionResult GetEskariak()
         {
@@ -338,8 +369,11 @@ namespace _1Erronka_API.Controllers
             return Ok(dtoList);
         }
 
-
-
+        /// <summary>
+        /// Egoera zehatz batean dauden eskariak lortzen ditu.
+        /// </summary>
+        /// <param name="egoera">Egoera (Adibidez: "Prestatzen").</param>
+        /// <returns>Egoera horretan dauden eskarien zerrenda.</returns>
         [HttpGet("egoera/{egoera}")]
         public IActionResult GetEskariakByEgoera(string egoera)
         {

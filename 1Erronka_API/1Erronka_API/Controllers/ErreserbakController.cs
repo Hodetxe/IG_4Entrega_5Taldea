@@ -16,6 +16,9 @@ using iText.Kernel.Font;
 
 namespace _1Erronka_API.Controllers
 {
+    /// <summary>
+    /// Erreserbak kudeatzeko kontroladorea.
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class ErreserbakController : ControllerBase
@@ -36,19 +39,9 @@ namespace _1Erronka_API.Controllers
         }
 
         /// <summary>
-        /// Erreserba guztiak itzultzen ditu
+        /// Erreserba guztiak lortzen ditu.
         /// </summary>
-        /// <param name="eager">
-        /// <c>true</c> bada, langile eta mahaien datuak itzuliko dira ere, hau da, erreserbaren datuak inprimatuko dira
-        /// <c>false</c> bada, ez du ezer ez itzuliko
-        /// </param>
-        /// <returns>
-        /// Erreserba zerrenda bat itzuliko du (DTO formatuan).
-        /// </returns>
-        /// <remarks>
-        /// Aukera erabilgarria da front-endean: zerrenda azkarragoa
-        /// </remarks>
-
+        /// <returns>Erreserba guztien zerrenda DTO formatuan.</returns>
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -72,6 +65,11 @@ namespace _1Erronka_API.Controllers
             return Ok(dtoList);
         }
 
+        /// <summary>
+        /// Erreserba berri bat sortzen du.
+        /// </summary>
+        /// <param name="dto">Sortu beharreko erreserbaren datuak.</param>
+        /// <returns>Sortutako erreserbaren IDa.</returns>
         [HttpPost]
         public IActionResult Sortu([FromBody] ErreserbaSortuDto dto)
         {
@@ -91,6 +89,12 @@ namespace _1Erronka_API.Controllers
             return Ok(new { mezua = "Erreserba sortuta", erreserbaId = erreserba.Id });
         }
 
+        /// <summary>
+        /// Erreserba bat eguneratzen du.
+        /// </summary>
+        /// <param name="id">Eguneratu nahi den erreserbaren IDa.</param>
+        /// <param name="dto">Erreserbaren datu berriak.</param>
+        /// <returns>Emaitza HTTP 200 (OK) edo 404 (NotFound).</returns>
         [HttpPut("{id}")]
         public IActionResult Update(int id, [FromBody] ErreserbaSortuDto dto)
         {
@@ -109,8 +113,11 @@ namespace _1Erronka_API.Controllers
             return Ok();
         }
 
-
-
+        /// <summary>
+        /// Erreserba bat ordaintzen du eta faktura sortzen du.
+        /// </summary>
+        /// <param name="dto">Ordainketaren datuak.</param>
+        /// <returns>HTTP 200 (OK) edo 404 (NotFound).</returns>
         [HttpPost("ordaindu")]
         public IActionResult Ordaindu([FromBody] ErreserbaOrdainduDto dto)
         {
@@ -285,6 +292,11 @@ namespace _1Erronka_API.Controllers
                 .SetTextAlignment(TextAlignment.CENTER));
         }
 
+        /// <summary>
+        /// Erreserba bat ezabatzen du.
+        /// </summary>
+        /// <param name="id">Ezabatu nahi den erreserbaren IDa.</param>
+        /// <returns>HTTP 200 (OK) edo 400 (BadRequest).</returns>
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
@@ -330,6 +342,11 @@ namespace _1Erronka_API.Controllers
             }
         }
 
+        /// <summary>
+        /// Erreserba baten tiketa (PDF) deskargatzen du.
+        /// </summary>
+        /// <param name="id">Erreserbaren IDa.</param>
+        /// <returns>PDF fitxategia.</returns>
         [HttpGet("tiket/{id}")]
         public IActionResult DeskargatuTicket(int id)
         {

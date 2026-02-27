@@ -20,8 +20,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/ProduktuaOsagaia.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: ProduktuaOsagaia
     path: ../1Erronka_API/1Erronka_API/Modeloak/ProduktuaOsagaia.cs
     startLine: 2
@@ -53,8 +53,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/ProduktuaOsagaia.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Produktua
     path: ../1Erronka_API/1Erronka_API/Modeloak/ProduktuaOsagaia.cs
     startLine: 4
@@ -82,8 +82,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/ProduktuaOsagaia.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Osagaia
     path: ../1Erronka_API/1Erronka_API/Modeloak/ProduktuaOsagaia.cs
     startLine: 5
@@ -111,8 +111,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/ProduktuaOsagaia.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Kantitatea
     path: ../1Erronka_API/1Erronka_API/Modeloak/ProduktuaOsagaia.cs
     startLine: 7
@@ -140,8 +140,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/ProduktuaOsagaia.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Equals
     path: ../1Erronka_API/1Erronka_API/Modeloak/ProduktuaOsagaia.cs
     startLine: 9
@@ -179,8 +179,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/ProduktuaOsagaia.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: GetHashCode
     path: ../1Erronka_API/1Erronka_API/Modeloak/ProduktuaOsagaia.cs
     startLine: 17

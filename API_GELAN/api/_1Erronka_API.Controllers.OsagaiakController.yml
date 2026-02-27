@@ -18,14 +18,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/OsagaiakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: OsagaiakController
     path: ../1Erronka_API/1Erronka_API/Controllers/OsagaiakController.cs
-    startLine: 6
+    startLine: 9
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Osagaiak kudeatzeko kontroladorea.
+  example: []
   syntax:
     content: >-
       [ApiController]
@@ -246,11 +248,11 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/OsagaiakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: .ctor
     path: ../1Erronka_API/1Erronka_API/Controllers/OsagaiakController.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
@@ -278,14 +280,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/OsagaiakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: GetAll
     path: ../1Erronka_API/1Erronka_API/Controllers/OsagaiakController.cs
-    startLine: 17
+    startLine: 24
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Osagai guztiak lortzen ditu.
+  example: []
   syntax:
     content: >-
       [HttpGet]
@@ -293,6 +297,7 @@ items:
       public IActionResult GetAll()
     return:
       type: Microsoft.AspNetCore.Mvc.IActionResult
+      description: Osagai guztien zerrenda DTO formatuan.
     content.vb: >-
       <HttpGet>
 
@@ -316,14 +321,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/OsagaiakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Get
     path: ../1Erronka_API/1Erronka_API/Controllers/OsagaiakController.cs
-    startLine: 34
+    startLine: 46
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Osagai zehatz bat lortzen du bere IDaren bidez.
+  example: []
   syntax:
     content: >-
       [HttpGet("{id}")]
@@ -332,8 +339,10 @@ items:
     parameters:
     - id: id
       type: System.Int32
+      description: Osagaiaren identifikadorea.
     return:
       type: Microsoft.AspNetCore.Mvc.IActionResult
+      description: Osagaiaren datuak edo NotFound mezua.
     content.vb: >-
       <HttpGet("{id}")>
 

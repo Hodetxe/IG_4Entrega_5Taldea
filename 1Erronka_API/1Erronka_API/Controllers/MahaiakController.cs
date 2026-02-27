@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using _1Erronka_API.Repositorioak;
 using _1Erronka_API.DTOak;
 using _1Erronka_API.Modeloak;
 
 namespace _1Erronka_API.Controllers
 {
+    /// <summary>
+    /// Mahaien kudeaketaz arduratzen den kontroladorea.
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class MahaiakController : ControllerBase
@@ -16,6 +19,10 @@ namespace _1Erronka_API.Controllers
             _repo = repo;
         }
 
+        /// <summary>
+        /// Mahai guztiak lortzen ditu.
+        /// </summary>
+        /// <returns>Mahai guztien zerrenda DTO formatuan.</returns>
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -65,6 +72,11 @@ namespace _1Erronka_API.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Mahai bat ezabatzen du.
+        /// </summary>
+        /// <param name="id">Ezabatu beharreko mahaiaren identifikadorea.</param>
+        /// <returns>Eragiketaren emaitza.</returns>
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {

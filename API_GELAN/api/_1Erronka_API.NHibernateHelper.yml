@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/NHibernateHelper.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: NHibernateHelper
     path: ../1Erronka_API/1Erronka_API/NHibernateHelper.cs
     startLine: 10
@@ -53,8 +53,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/NHibernateHelper.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: OpenSession
     path: ../1Erronka_API/1Erronka_API/NHibernateHelper.cs
     startLine: 14
@@ -81,8 +81,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/NHibernateHelper.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: SessionFactory
     path: ../1Erronka_API/1Erronka_API/NHibernateHelper.cs
     startLine: 19
@@ -110,8 +110,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/NHibernateHelper.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: dbEguneratu
     path: ../1Erronka_API/1Erronka_API/NHibernateHelper.cs
     startLine: 43

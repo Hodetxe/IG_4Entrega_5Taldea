@@ -21,8 +21,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/MahaiaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: MahaiaRepository
     path: ../1Erronka_API/1Erronka_API/Repositorioak/MahaiaRepository.cs
     startLine: 5
@@ -56,8 +56,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/MahaiaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: .ctor
     path: ../1Erronka_API/1Erronka_API/Repositorioak/MahaiaRepository.cs
     startLine: 9
@@ -88,8 +88,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/MahaiaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: GetAll
     path: ../1Erronka_API/1Erronka_API/Repositorioak/MahaiaRepository.cs
     startLine: 14
@@ -116,8 +116,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/MahaiaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Get
     path: ../1Erronka_API/1Erronka_API/Repositorioak/MahaiaRepository.cs
     startLine: 16
@@ -150,8 +150,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/MahaiaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Add
     path: ../1Erronka_API/1Erronka_API/Repositorioak/MahaiaRepository.cs
     startLine: 18
@@ -179,8 +179,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/MahaiaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Update
     path: ../1Erronka_API/1Erronka_API/Repositorioak/MahaiaRepository.cs
     startLine: 25
@@ -208,8 +208,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/MahaiaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Delete
     path: ../1Erronka_API/1Erronka_API/Repositorioak/MahaiaRepository.cs
     startLine: 31

@@ -24,8 +24,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: ErreserbaRepository
     path: ../1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
     startLine: 9
@@ -59,8 +59,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: .ctor
     path: ../1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
     startLine: 13
@@ -91,8 +91,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: GetAll
     path: ../1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
     startLine: 18
@@ -119,8 +119,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Get
     path: ../1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
     startLine: 26
@@ -153,8 +153,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Add
     path: ../1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
     startLine: 31
@@ -182,8 +182,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Update
     path: ../1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
     startLine: 45
@@ -211,8 +211,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Delete
     path: ../1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
     startLine: 59
@@ -240,8 +240,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: LortuProduktuakErreserbarako
     path: ../1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
     startLine: 73
@@ -274,8 +274,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: OpenSession
     path: ../1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
     startLine: 92
@@ -302,8 +302,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: ExecuteSerializableTransaction
     path: ../1Erronka_API/1Erronka_API/Repositorioak/ErreserbaRepository.cs
     startLine: 97

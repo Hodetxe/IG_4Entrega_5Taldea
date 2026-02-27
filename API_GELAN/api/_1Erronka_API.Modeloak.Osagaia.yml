@@ -20,8 +20,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/Osagaia.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Osagaia
     path: ../1Erronka_API/1Erronka_API/Modeloak/Osagaia.cs
     startLine: 2
@@ -55,8 +55,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/Osagaia.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Id
     path: ../1Erronka_API/1Erronka_API/Modeloak/Osagaia.cs
     startLine: 4
@@ -84,8 +84,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/Osagaia.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Izena
     path: ../1Erronka_API/1Erronka_API/Modeloak/Osagaia.cs
     startLine: 5
@@ -113,8 +113,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/Osagaia.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Prezioa
     path: ../1Erronka_API/1Erronka_API/Modeloak/Osagaia.cs
     startLine: 6
@@ -142,8 +142,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/Osagaia.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Stock
     path: ../1Erronka_API/1Erronka_API/Modeloak/Osagaia.cs
     startLine: 7
@@ -171,8 +171,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/Osagaia.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: HornitzaileakId
     path: ../1Erronka_API/1Erronka_API/Modeloak/Osagaia.cs
     startLine: 8

@@ -1,16 +1,24 @@
-﻿using _1Erronka_API;
+using _1Erronka_API;
 using _1Erronka_API.Domain;
 using _1Erronka_API.DTOak;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 using System.Security.Cryptography;
 
-[ApiController]
-[Route("api/[controller]")]
-public class LoginController : ControllerBase
-{
-    [HttpPost]
-    public IActionResult Login([FromBody] LoginRequest request)
+/// <summary>
+    /// Erabiltzaileen saio-hasiera kudeatzen duen kontroladorea.
+    /// </summary>
+    [ApiController]
+    [Route("api/[controller]")]
+    public class LoginController : ControllerBase
+    {
+        /// <summary>
+        /// Erabiltzailearen saioa hasten du.
+        /// </summary>
+        /// <param name="request">Saio-hasierako eskaeraren datuak.</param>
+        /// <returns>Saio-hasieraren emaitza eta, arrakasta izanez gero, erabiltzailearen datuak.</returns>
+        [HttpPost]
+        public IActionResult Login([FromBody] LoginRequest request)
     {
         using (var session = NHibernateHelper.OpenSession())
         {
@@ -68,25 +76,53 @@ public class LoginController : ControllerBase
     }
 
     private string HashPassword(string input)
-    {
-        using (SHA256 sha = SHA256.Create())
         {
-            byte[] bytes = sha.ComputeHash(Encoding.UTF8.GetBytes(input));
-            return BitConverter.ToString(bytes).Replace("-", "").ToLower();
+            using (SHA256 sha = SHA256.Create())
+            {
+                byte[] bytes = sha.ComputeHash(Encoding.UTF8.GetBytes(input));
+                return BitConverter.ToString(bytes).Replace("-", "").ToLower();
+            }
         }
     }
-}
 
-public class LoginRequest
-{
-    public int Langile_kodea { get; set; }
-    public string Pasahitza { get; set; }
-}
+    /// <summary>
+    /// Saio-hasierako eskaeraren datuak.
+    /// </summary>
+    public class LoginRequest
+    {
+        /// <summary>
+        /// Langilearen kodea.
+        /// </summary>
+        public int Langile_kodea { get; set; }
 
-public class LoginErantzuna
-{
-    public bool Ok { get; set; }
-    public string Code { get; set; } = "";
-    public string Message { get; set; } = "";
-    public LangileaDto? Data { get; set; }
-}
+        /// <summary>
+        /// Langilearen pasahitza.
+        /// </summary>
+        public string Pasahitza { get; set; }
+    }
+
+    /// <summary>
+    /// Saio-hasieraren erantzuna.
+    /// </summary>
+    public class LoginErantzuna
+    {
+        /// <summary>
+        /// Erantzuna zuzena den edo ez.
+        /// </summary>
+        public bool Ok { get; set; }
+
+        /// <summary>
+        /// Erantzunaren kodea.
+        /// </summary>
+        public string Code { get; set; } = "";
+
+        /// <summary>
+        /// Erantzunaren mezua.
+        /// </summary>
+        public string Message { get; set; } = "";
+
+        /// <summary>
+        /// Langilearen datuak (aukerakoa).
+        /// </summary>
+        public LangileaDto? Data { get; set; }
+    }

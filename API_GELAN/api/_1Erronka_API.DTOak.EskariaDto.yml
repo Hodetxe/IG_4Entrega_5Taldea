@@ -21,14 +21,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: EskariaDto
     path: ../1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-    startLine: 2
+    startLine: 7
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Eskariaren informazioa gordetzeko DTOa.
+  example: []
   syntax:
     content: public class EskariaDto
     content.vb: Public Class EskariaDto
@@ -56,14 +58,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Id
     path: ../1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-    startLine: 4
+    startLine: 12
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Eskariaren identifikadorea.
+  example: []
   syntax:
     content: public int Id { get; set; }
     parameters: []
@@ -85,14 +89,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Prezioa
     path: ../1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-    startLine: 5
+    startLine: 17
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Eskariaren prezio totala.
+  example: []
   syntax:
     content: public double Prezioa { get; set; }
     parameters: []
@@ -114,14 +120,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Egoera
     path: ../1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-    startLine: 6
+    startLine: 22
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: 'Eskariaren egoera (Adibidez: "Prestatzen", "Zerbitzatuta").'
+  example: []
   syntax:
     content: public string Egoera { get; set; }
     parameters: []
@@ -143,14 +151,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: ErreserbaId
     path: ../1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-    startLine: 7
+    startLine: 27
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Eskaria dagokion erreserbaren IDa.
+  example: []
   syntax:
     content: public int ErreserbaId { get; set; }
     parameters: []
@@ -172,14 +182,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: MahaiaZenbakia
     path: ../1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-    startLine: 8
+    startLine: 32
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Mahaiaren zenbakia.
+  example: []
   syntax:
     content: public int MahaiaZenbakia { get; set; }
     parameters: []
@@ -201,14 +213,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Produktuak
     path: ../1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-    startLine: 9
+    startLine: 37
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Eskarian dauden produktuen zerrenda.
+  example: []
   syntax:
     content: public List<EskariaProduktuaDto> Produktuak { get; set; }
     parameters: []

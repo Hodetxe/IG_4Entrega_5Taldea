@@ -19,14 +19,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/MahaiaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: MahaiaDto
     path: ../1Erronka_API/1Erronka_API/DTOak/MahaiaDto.cs
-    startLine: 2
+    startLine: 5
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Mahaiaren informazioa gordetzeko DTOa.
+  example: []
   syntax:
     content: public class MahaiaDto
     content.vb: Public Class MahaiaDto
@@ -54,14 +56,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/MahaiaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Id
     path: ../1Erronka_API/1Erronka_API/DTOak/MahaiaDto.cs
-    startLine: 4
+    startLine: 10
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Mahaiaren identifikadorea.
+  example: []
   syntax:
     content: public int Id { get; set; }
     parameters: []
@@ -83,14 +87,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/MahaiaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Zenbakia
     path: ../1Erronka_API/1Erronka_API/DTOak/MahaiaDto.cs
-    startLine: 5
+    startLine: 15
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Mahaiaren zenbakia.
+  example: []
   syntax:
     content: public int Zenbakia { get; set; }
     parameters: []
@@ -112,14 +118,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/MahaiaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: PertsonaKopurua
     path: ../1Erronka_API/1Erronka_API/DTOak/MahaiaDto.cs
-    startLine: 6
+    startLine: 20
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Mahaian sar daitekeen pertsona kopurua.
+  example: []
   syntax:
     content: public int PertsonaKopurua { get; set; }
     parameters: []
@@ -141,14 +149,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/MahaiaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Kokapena
     path: ../1Erronka_API/1Erronka_API/DTOak/MahaiaDto.cs
-    startLine: 7
+    startLine: 25
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: 'Mahaiaren kokapena (Adibidez: "Terraza", "Barruan").'
+  example: []
   syntax:
     content: public string Kokapena { get; set; }
     parameters: []

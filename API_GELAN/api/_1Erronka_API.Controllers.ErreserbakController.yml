@@ -22,14 +22,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: ErreserbakController
     path: ../1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-    startLine: 18
+    startLine: 21
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Erreserbak kudeatzeko kontroladorea.
+  example: []
   syntax:
     content: >-
       [ApiController]
@@ -250,11 +252,11 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: .ctor
     path: ../1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-    startLine: 28
+    startLine: 31
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
@@ -290,16 +292,15 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: GetAll
     path: ../1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-    startLine: 51
+    startLine: 44
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
-  summary: Erreserba guztiak itzultzen ditu
-  remarks: 'Aukera erabilgarria da front-endean: zerrenda azkarragoa'
+  summary: Erreserba guztiak lortzen ditu.
   example: []
   syntax:
     content: >-
@@ -308,7 +309,7 @@ items:
       public IActionResult GetAll()
     return:
       type: Microsoft.AspNetCore.Mvc.IActionResult
-      description: Erreserba zerrenda bat itzuliko du (DTO formatuan).
+      description: Erreserba guztien zerrenda DTO formatuan.
     content.vb: >-
       <HttpGet>
 
@@ -332,14 +333,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Sortu
     path: ../1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-    startLine: 74
+    startLine: 72
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Erreserba berri bat sortzen du.
+  example: []
   syntax:
     content: >-
       [HttpPost]
@@ -348,12 +351,14 @@ items:
     parameters:
     - id: dto
       type: _1Erronka_API.DTOak.ErreserbaSortuDto
+      description: Sortu beharreko erreserbaren datuak.
       attributes:
       - type: Microsoft.AspNetCore.Mvc.FromBodyAttribute
         ctor: Microsoft.AspNetCore.Mvc.FromBodyAttribute.#ctor
         arguments: []
     return:
       type: Microsoft.AspNetCore.Mvc.IActionResult
+      description: Sortutako erreserbaren IDa.
     content.vb: >-
       <HttpPost>
 
@@ -377,14 +382,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Update
     path: ../1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-    startLine: 93
+    startLine: 97
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Erreserba bat eguneratzen du.
+  example: []
   syntax:
     content: >-
       [HttpPut("{id}")]
@@ -393,14 +400,17 @@ items:
     parameters:
     - id: id
       type: System.Int32
+      description: Eguneratu nahi den erreserbaren IDa.
     - id: dto
       type: _1Erronka_API.DTOak.ErreserbaSortuDto
+      description: Erreserbaren datu berriak.
       attributes:
       - type: Microsoft.AspNetCore.Mvc.FromBodyAttribute
         ctor: Microsoft.AspNetCore.Mvc.FromBodyAttribute.#ctor
         arguments: []
     return:
       type: Microsoft.AspNetCore.Mvc.IActionResult
+      description: Emaitza HTTP 200 (OK) edo 404 (NotFound).
     content.vb: >-
       <HttpPut("{id}")>
 
@@ -429,14 +439,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Ordaindu
     path: ../1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-    startLine: 113
+    startLine: 120
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Erreserba bat ordaintzen du eta faktura sortzen du.
+  example: []
   syntax:
     content: >-
       [HttpPost("ordaindu")]
@@ -445,12 +457,14 @@ items:
     parameters:
     - id: dto
       type: _1Erronka_API.DTOak.ErreserbaOrdainduDto
+      description: Ordainketaren datuak.
       attributes:
       - type: Microsoft.AspNetCore.Mvc.FromBodyAttribute
         ctor: Microsoft.AspNetCore.Mvc.FromBodyAttribute.#ctor
         arguments: []
     return:
       type: Microsoft.AspNetCore.Mvc.IActionResult
+      description: HTTP 200 (OK) edo 404 (NotFound).
     content.vb: >-
       <HttpPost("ordaindu")>
 
@@ -476,14 +490,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Delete
     path: ../1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-    startLine: 287
+    startLine: 299
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Erreserba bat ezabatzen du.
+  example: []
   syntax:
     content: >-
       [HttpDelete("{id}")]
@@ -492,8 +508,10 @@ items:
     parameters:
     - id: id
       type: System.Int32
+      description: Ezabatu nahi den erreserbaren IDa.
     return:
       type: Microsoft.AspNetCore.Mvc.IActionResult
+      description: HTTP 200 (OK) edo 400 (BadRequest).
     content.vb: >-
       <HttpDelete("{id}")>
 
@@ -522,14 +540,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: DeskargatuTicket
     path: ../1Erronka_API/1Erronka_API/Controllers/ErreserbakController.cs
-    startLine: 332
+    startLine: 349
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Erreserba baten tiketa (PDF) deskargatzen du.
+  example: []
   syntax:
     content: >-
       [HttpGet("tiket/{id}")]
@@ -538,8 +558,10 @@ items:
     parameters:
     - id: id
       type: System.Int32
+      description: Erreserbaren IDa.
     return:
       type: Microsoft.AspNetCore.Mvc.IActionResult
+      description: PDF fitxategia.
     content.vb: >-
       <HttpGet("tiket/{id}")>
 

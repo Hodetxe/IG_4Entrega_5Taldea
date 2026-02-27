@@ -21,8 +21,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/Produktua.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Produktua
     path: ../1Erronka_API/1Erronka_API/Modeloak/Produktua.cs
     startLine: 2
@@ -56,8 +56,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/Produktua.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Id
     path: ../1Erronka_API/1Erronka_API/Modeloak/Produktua.cs
     startLine: 4
@@ -85,8 +85,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/Produktua.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Izena
     path: ../1Erronka_API/1Erronka_API/Modeloak/Produktua.cs
     startLine: 5
@@ -114,8 +114,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/Produktua.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Prezioa
     path: ../1Erronka_API/1Erronka_API/Modeloak/Produktua.cs
     startLine: 6
@@ -143,8 +143,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/Produktua.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Mota
     path: ../1Erronka_API/1Erronka_API/Modeloak/Produktua.cs
     startLine: 7
@@ -172,8 +172,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/Produktua.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Stock
     path: ../1Erronka_API/1Erronka_API/Modeloak/Produktua.cs
     startLine: 8
@@ -201,8 +201,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Modeloak/Produktua.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Osagaiak
     path: ../1Erronka_API/1Erronka_API/Modeloak/Produktua.cs
     startLine: 10

@@ -18,8 +18,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/ProduktuaOsagaiaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: ProduktuaOsagaiaRepository
     path: ../1Erronka_API/1Erronka_API/Repositorioak/ProduktuaOsagaiaRepository.cs
     startLine: 5
@@ -53,8 +53,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/ProduktuaOsagaiaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: .ctor
     path: ../1Erronka_API/1Erronka_API/Repositorioak/ProduktuaOsagaiaRepository.cs
     startLine: 9
@@ -85,8 +85,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/ProduktuaOsagaiaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: GetByProduktuaId
     path: ../1Erronka_API/1Erronka_API/Repositorioak/ProduktuaOsagaiaRepository.cs
     startLine: 14
@@ -119,8 +119,8 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Repositorioak/ProduktuaOsagaiaRepository.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: UpdateOsagaia
     path: ../1Erronka_API/1Erronka_API/Repositorioak/ProduktuaOsagaiaRepository.cs
     startLine: 21

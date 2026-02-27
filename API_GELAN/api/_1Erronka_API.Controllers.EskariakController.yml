@@ -23,14 +23,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: EskariakController
     path: ../1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-    startLine: 7
+    startLine: 10
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Eskariak kudeatzeko kontroladorea.
+  example: []
   syntax:
     content: >-
       [ApiController]
@@ -251,11 +253,11 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: .ctor
     path: ../1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-    startLine: 18
+    startLine: 21
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
@@ -291,14 +293,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Sortu
     path: ../1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-    startLine: 27
+    startLine: 35
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Eskaria berri bat sortzen du.
+  example: []
   syntax:
     content: >-
       [HttpPost]
@@ -307,12 +311,14 @@ items:
     parameters:
     - id: dto
       type: _1Erronka_API.DTOak.EskariaSortuDto
+      description: Eskariaren datuak.
       attributes:
       - type: Microsoft.AspNetCore.Mvc.FromBodyAttribute
         ctor: Microsoft.AspNetCore.Mvc.FromBodyAttribute.#ctor
         arguments: []
     return:
       type: Microsoft.AspNetCore.Mvc.IActionResult
+      description: Sortutako eskariaren informazioa edo errore mezua.
     content.vb: >-
       <HttpPost>
 
@@ -336,14 +342,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Eguneratu
     path: ../1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-    startLine: 122
+    startLine: 135
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Eskaria bat eguneratzen du.
+  example: []
   syntax:
     content: >-
       [HttpPut("{id}")]
@@ -352,14 +360,17 @@ items:
     parameters:
     - id: id
       type: System.Int32
+      description: Eskariaren IDa.
     - id: dto
       type: _1Erronka_API.DTOak.EskariaSortuDto
+      description: Eskariaren datu berriak.
       attributes:
       - type: Microsoft.AspNetCore.Mvc.FromBodyAttribute
         ctor: Microsoft.AspNetCore.Mvc.FromBodyAttribute.#ctor
         arguments: []
     return:
       type: Microsoft.AspNetCore.Mvc.IActionResult
+      description: True ondo badoa, bestela errorea.
     content.vb: >-
       <HttpPut("{id}")>
 
@@ -388,14 +399,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Ezabatu
     path: ../1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-    startLine: 228
+    startLine: 246
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Eskaria bat ezabatzen du.
+  example: []
   syntax:
     content: >-
       [HttpDelete("{id}")]
@@ -404,8 +417,10 @@ items:
     parameters:
     - id: id
       type: System.Int32
+      description: Eskariaren IDa.
     return:
       type: Microsoft.AspNetCore.Mvc.IActionResult
+      description: True ondo badoa, bestela errorea.
     content.vb: >-
       <HttpDelete("{id}")>
 
@@ -434,14 +449,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: GetEskaria
     path: ../1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-    startLine: 266
+    startLine: 289
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Eskaria baten xehetasunak lortzen ditu.
+  example: []
   syntax:
     content: >-
       [HttpGet("{id}")]
@@ -450,8 +467,10 @@ items:
     parameters:
     - id: id
       type: System.Int32
+      description: Eskariaren IDa.
     return:
       type: Microsoft.AspNetCore.Mvc.IActionResult
+      description: Eskariaren informazioa DTO formatuan.
     content.vb: >-
       <HttpGet("{id}")>
 
@@ -480,14 +499,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: GetEskariakByErreserba
     path: ../1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-    startLine: 290
+    startLine: 318
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Erreserba baten eskari guztiak lortzen ditu.
+  example: []
   syntax:
     content: >-
       [HttpGet("erreserba/{erreserbaId}")]
@@ -496,8 +517,10 @@ items:
     parameters:
     - id: erreserbaId
       type: System.Int32
+      description: Erreserbaren IDa.
     return:
       type: Microsoft.AspNetCore.Mvc.IActionResult
+      description: Erreserbaren eskarien zerrenda.
     content.vb: >-
       <HttpGet("erreserba/{erreserbaId}")>
 
@@ -526,14 +549,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: GetEskariak
     path: ../1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-    startLine: 314
+    startLine: 345
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Eskaria guztiak lortzen ditu.
+  example: []
   syntax:
     content: >-
       [HttpGet]
@@ -541,6 +566,7 @@ items:
       public IActionResult GetEskariak()
     return:
       type: Microsoft.AspNetCore.Mvc.IActionResult
+      description: Eskaria guztien zerrenda.
     content.vb: >-
       <HttpGet>
 
@@ -564,14 +590,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: GetEskariakByEgoera
     path: ../1Erronka_API/1Erronka_API/Controllers/EskariakController.cs
-    startLine: 342
+    startLine: 376
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.Controllers
+  summary: Egoera zehatz batean dauden eskariak lortzen ditu.
+  example: []
   syntax:
     content: >-
       [HttpGet("egoera/{egoera}")]
@@ -580,8 +608,10 @@ items:
     parameters:
     - id: egoera
       type: System.String
+      description: 'Egoera (Adibidez: "Prestatzen").'
     return:
       type: Microsoft.AspNetCore.Mvc.IActionResult
+      description: Egoera horretan dauden eskarien zerrenda.
     content.vb: >-
       <HttpGet("egoera/{egoera}")>
 

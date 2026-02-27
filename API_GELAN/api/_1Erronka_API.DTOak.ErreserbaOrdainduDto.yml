@@ -21,14 +21,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaOrdainduDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: ErreserbaOrdainduDto
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaOrdainduDto.cs
-    startLine: 2
+    startLine: 5
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Erreserba bat ordaintzeko erabiltzen den datu egitura.
+  example: []
   syntax:
     content: public class ErreserbaOrdainduDto
     content.vb: Public Class ErreserbaOrdainduDto
@@ -56,14 +58,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaOrdainduDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: ErreserbaId
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaOrdainduDto.cs
-    startLine: 4
+    startLine: 10
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Ordaindu nahi den erreserbaren IDa.
+  example: []
   syntax:
     content: public int ErreserbaId { get; set; }
     parameters: []
@@ -85,14 +89,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaOrdainduDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Guztira
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaOrdainduDto.cs
-    startLine: 5
+    startLine: 15
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Ordaindu beharreko guztizko kopurua.
+  example: []
   syntax:
     content: public double Guztira { get; set; }
     parameters: []
@@ -114,14 +120,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaOrdainduDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Jasotakoa
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaOrdainduDto.cs
-    startLine: 6
+    startLine: 20
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Bezeroak emandako diru kopurua (eskudirutan bada).
+  example: []
   syntax:
     content: public double Jasotakoa { get; set; }
     parameters: []
@@ -143,14 +151,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaOrdainduDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Itzulia
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaOrdainduDto.cs
-    startLine: 7
+    startLine: 25
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Bezeroari itzuli beharreko diru kopurua.
+  example: []
   syntax:
     content: public double Itzulia { get; set; }
     parameters: []
@@ -172,14 +182,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaOrdainduDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: LangileaId
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaOrdainduDto.cs
-    startLine: 8
+    startLine: 30
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Ordainketa kudeatzen duen langilearen IDa.
+  example: []
   syntax:
     content: public int LangileaId { get; set; }
     parameters: []
@@ -201,14 +213,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaOrdainduDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: OrdainketaModua
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaOrdainduDto.cs
-    startLine: 9
+    startLine: 35
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: 'Ordainketa modua (Adibidez: "Eskudirua", "Txartela").'
+  example: []
   syntax:
     content: public string OrdainketaModua { get; set; }
     parameters: []

@@ -22,14 +22,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: LangileaDto
     path: ../1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-    startLine: 2
+    startLine: 7
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Langilearen datuak transferitzeko objektua.
+  example: []
   syntax:
     content: public class LangileaDto
     content.vb: Public Class LangileaDto
@@ -57,14 +59,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Id
     path: ../1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-    startLine: 4
+    startLine: 12
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Langilearen identifikadorea.
+  example: []
   syntax:
     content: public virtual int Id { get; set; }
     parameters: []
@@ -86,14 +90,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Izena
     path: ../1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-    startLine: 5
+    startLine: 17
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Langilearen izena.
+  example: []
   syntax:
     content: public virtual string Izena { get; set; }
     parameters: []
@@ -115,14 +121,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Erabiltzaile_izena
     path: ../1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-    startLine: 6
+    startLine: 22
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Langilearen erabiltzaile izena sisteman.
+  example: []
   syntax:
     content: public virtual string Erabiltzaile_izena { get; set; }
     parameters: []
@@ -144,14 +152,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Langile_kodea
     path: ../1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-    startLine: 7
+    startLine: 27
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Langilearen kodea.
+  example: []
   syntax:
     content: public int Langile_kodea { get; set; }
     parameters: []
@@ -173,14 +183,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Pasahitza
     path: ../1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-    startLine: 8
+    startLine: 32
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Langilearen pasahitza (hash).
+  example: []
   syntax:
     content: public virtual string Pasahitza { get; set; }
     parameters: []
@@ -202,14 +214,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Gerentea
     path: ../1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-    startLine: 9
+    startLine: 37
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Langilea gerentea den edo ez.
+  example: []
   syntax:
     content: public virtual bool Gerentea { get; set; }
     parameters: []
@@ -231,14 +245,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: TpvSarrera
     path: ../1Erronka_API/1Erronka_API/DTOak/LangileaDto.cs
-    startLine: 10
+    startLine: 42
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: TPV-ra sartzeko baimena duen edo ez.
+  example: []
   syntax:
     content: public virtual bool TpvSarrera { get; set; }
     parameters: []

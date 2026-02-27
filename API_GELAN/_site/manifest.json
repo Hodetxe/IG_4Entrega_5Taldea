@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/Users/hodei/OneDrive - Goierri Eskola/Escritorio/1_ERRONKA(2MG)/2MG3_1Erronka_API/API_GELAN",
+  "source_base_path": "C:/Users/BEÑAT/Desktop/GOIERRI/3ERRONKA/API/IG_4Entrega_5Taldea/API_GELAN",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -22,7 +22,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.Controllers.ErreserbakController",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.Controllers.ErreserbakController.yml\" sourcestartlinenumber=\"1\">Erreserbak kudeatzeko kontroladorea.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -36,7 +36,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.Controllers.EskariakController",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.Controllers.EskariakController.yml\" sourcestartlinenumber=\"1\">Eskariak kudeatzeko kontroladorea.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -50,7 +50,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.Controllers.MahaiakController",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.Controllers.MahaiakController.yml\" sourcestartlinenumber=\"1\">Mahaien kudeaketaz arduratzen den kontroladorea.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -64,7 +64,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.Controllers.OsagaiakController",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.Controllers.OsagaiakController.yml\" sourcestartlinenumber=\"1\">Osagaiak kudeatzeko kontroladorea.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -78,7 +78,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.Controllers.ProduktuakController",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.Controllers.ProduktuakController.yml\" sourcestartlinenumber=\"1\">Produktuak kudeatzeko kontroladorea.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -106,7 +106,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.DTOak.ErreserbaDto",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.ErreserbaDto.yml\" sourcestartlinenumber=\"1\">Erreserbaren datuak transferitzeko objektua.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -120,7 +120,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.DTOak.ErreserbaOrdainduDto",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.ErreserbaOrdainduDto.yml\" sourcestartlinenumber=\"1\">Erreserba bat ordaintzeko erabiltzen den datu egitura.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -134,7 +134,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.DTOak.ErreserbaSortuDto",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.ErreserbaSortuDto.yml\" sourcestartlinenumber=\"1\">Erreserba berri bat sortzeko edo eguneratzeko erabiltzen den DTOa.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -148,7 +148,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.DTOak.EskariaDto",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.EskariaDto.yml\" sourcestartlinenumber=\"1\">Eskariaren informazioa gordetzeko DTOa.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -162,7 +162,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.DTOak.EskariaProduktuaDto",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.EskariaProduktuaDto.yml\" sourcestartlinenumber=\"1\">Eskaria bateko produktu baten xehetasunak.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -176,7 +176,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.DTOak.EskariaProduktuaSortuDto",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.EskariaProduktuaSortuDto.yml\" sourcestartlinenumber=\"1\">Eskaria sortzean produktu bat gehitzeko erabiltzen den DTOa.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -190,7 +190,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.DTOak.EskariaSortuDto",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.EskariaSortuDto.yml\" sourcestartlinenumber=\"1\">Eskaria berri bat sortzeko erabiltzen den DTOa.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -204,7 +204,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.DTOak.LangileaDto",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.LangileaDto.yml\" sourcestartlinenumber=\"1\">Langilearen datuak transferitzeko objektua.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -218,7 +218,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.DTOak.MahaiaDto",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.MahaiaDto.yml\" sourcestartlinenumber=\"1\">Mahaiaren informazioa gordetzeko DTOa.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -232,7 +232,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.DTOak.OsagaiaDto",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.OsagaiaDto.yml\" sourcestartlinenumber=\"1\">Osagai baten informazioa gordetzeko DTOa.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -246,7 +246,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "_1Erronka_API.DTOak.ProduktuaDto",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/_1Erronka_API.DTOak.ProduktuaDto.yml\" sourcestartlinenumber=\"1\">Produktu baten informazioa gordetzeko DTOa.</p>\n"
     },
     {
       "type": "ManagedReference",

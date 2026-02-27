@@ -23,14 +23,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: ErreserbaSortuDto
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-    startLine: 17
+    startLine: 68
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Erreserba berri bat sortzeko edo eguneratzeko erabiltzen den DTOa.
+  example: []
   syntax:
     content: public class ErreserbaSortuDto
     content.vb: Public Class ErreserbaSortuDto
@@ -58,14 +60,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: BezeroIzena
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-    startLine: 19
+    startLine: 73
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Bezeroaren izena.
+  example: []
   syntax:
     content: public string BezeroIzena { get; set; }
     parameters: []
@@ -87,14 +91,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Telefonoa
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-    startLine: 20
+    startLine: 78
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Bezeroaren telefono zenbakia.
+  example: []
   syntax:
     content: public string Telefonoa { get; set; }
     parameters: []
@@ -116,14 +122,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: PertsonaKopurua
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-    startLine: 21
+    startLine: 83
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Pertsona kopurua.
+  example: []
   syntax:
     content: public int PertsonaKopurua { get; set; }
     parameters: []
@@ -145,14 +153,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: EgunaOrdua
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-    startLine: 22
+    startLine: 88
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Erreserbaren data eta ordua.
+  example: []
   syntax:
     content: public DateTime EgunaOrdua { get; set; }
     parameters: []
@@ -174,14 +184,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: PrezioTotala
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-    startLine: 23
+    startLine: 93
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Prezio totala (hasieran 0 izan daiteke).
+  example: []
   syntax:
     content: public double PrezioTotala { get; set; }
     parameters: []
@@ -203,14 +215,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: FakturaRuta
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-    startLine: 24
+    startLine: 98
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Fakturaren ruta (aukerakoa).
+  example: []
   syntax:
     content: public string FakturaRuta { get; set; }
     parameters: []
@@ -232,14 +246,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: LangileaId
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-    startLine: 25
+    startLine: 103
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Langilearen IDa.
+  example: []
   syntax:
     content: public int LangileaId { get; set; }
     parameters: []
@@ -261,14 +277,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: MahaiakId
     path: ../1Erronka_API/1Erronka_API/DTOak/ErreserbaDto.cs
-    startLine: 26
+    startLine: 108
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Mahaiaren IDa.
+  example: []
   syntax:
     content: public int MahaiakId { get; set; }
     parameters: []

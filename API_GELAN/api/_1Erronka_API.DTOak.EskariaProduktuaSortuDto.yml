@@ -18,14 +18,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: EskariaProduktuaSortuDto
     path: ../1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-    startLine: 28
+    startLine: 95
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Eskaria sortzean produktu bat gehitzeko erabiltzen den DTOa.
+  example: []
   syntax:
     content: public class EskariaProduktuaSortuDto
     content.vb: Public Class EskariaProduktuaSortuDto
@@ -53,14 +55,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: ProduktuaId
     path: ../1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-    startLine: 30
+    startLine: 100
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Produktuaren IDa.
+  example: []
   syntax:
     content: public int ProduktuaId { get; set; }
     parameters: []
@@ -82,14 +86,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Kantitatea
     path: ../1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-    startLine: 31
+    startLine: 105
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Kantitatea.
+  example: []
   syntax:
     content: public int Kantitatea { get; set; }
     parameters: []
@@ -111,14 +117,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Prezioa
     path: ../1Erronka_API/1Erronka_API/DTOak/EskariaDto.cs
-    startLine: 32
+    startLine: 110
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Unitateko prezioa.
+  example: []
   syntax:
     content: public double Prezioa { get; set; }
     parameters: []

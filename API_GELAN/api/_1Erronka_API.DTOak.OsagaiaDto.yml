@@ -20,14 +20,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ProduktuaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: OsagaiaDto
     path: ../1Erronka_API/1Erronka_API/DTOak/ProduktuaDto.cs
-    startLine: 11
+    startLine: 36
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Osagai baten informazioa gordetzeko DTOa.
+  example: []
   syntax:
     content: public class OsagaiaDto
     content.vb: Public Class OsagaiaDto
@@ -55,14 +57,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ProduktuaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Id
     path: ../1Erronka_API/1Erronka_API/DTOak/ProduktuaDto.cs
-    startLine: 13
+    startLine: 41
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Osagaiaren identifikadorea.
+  example: []
   syntax:
     content: public int Id { get; set; }
     parameters: []
@@ -84,14 +88,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ProduktuaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Izena
     path: ../1Erronka_API/1Erronka_API/DTOak/ProduktuaDto.cs
-    startLine: 14
+    startLine: 46
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Osagaiaren izena.
+  example: []
   syntax:
     content: public string Izena { get; set; }
     parameters: []
@@ -113,14 +119,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ProduktuaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Prezioa
     path: ../1Erronka_API/1Erronka_API/DTOak/ProduktuaDto.cs
-    startLine: 15
+    startLine: 51
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Osagaiaren prezioa.
+  example: []
   syntax:
     content: public double Prezioa { get; set; }
     parameters: []
@@ -142,14 +150,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ProduktuaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: Stock
     path: ../1Erronka_API/1Erronka_API/DTOak/ProduktuaDto.cs
-    startLine: 16
+    startLine: 56
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Osagaiaren stock kopurua.
+  example: []
   syntax:
     content: public int Stock { get; set; }
     parameters: []
@@ -171,14 +181,16 @@ items:
   source:
     remote:
       path: 1Erronka_API/1Erronka_API/DTOak/ProduktuaDto.cs
-      branch: main
-      repo: https://github.com/iguisado228/2MG3_1Erronka_API
+      branch: master
+      repo: https://github.com/Hodetxe/IG_4Entrega_5Taldea.git
     id: HornitzaileakId
     path: ../1Erronka_API/1Erronka_API/DTOak/ProduktuaDto.cs
-    startLine: 17
+    startLine: 61
   assemblies:
   - Erronka1Api
   namespace: _1Erronka_API.DTOak
+  summary: Osagaiaren hornitzailearen IDa.
+  example: []
   syntax:
     content: public int HornitzaileakId { get; set; }
     parameters: []
