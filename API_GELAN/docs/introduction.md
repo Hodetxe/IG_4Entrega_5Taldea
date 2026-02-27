@@ -1,17 +1,17 @@
-# Introducción
+# Sarrera
 
-Esta API ha sido construida utilizando **ASP.NET Core 8.0** y sigue la arquitectura RESTful.
-El objetivo es proporcionar una interfaz robusta y segura para las aplicaciones cliente (Web y Móvil).
+API hau **ASP.NET Core 8.0** erabiliz eraiki da eta RESTful arkitektura jarraitzen du.
+Helburua bezero-aplikazioentzako (Web eta Mugikorra) interfaze sendo eta segurua eskaintzea da.
 
-## Características Principales
+## Ezaugarri Nagusiak
 
-1.  **Arquitectura en Capas**: Separación de responsabilidades entre Controladores, Lógica de Negocio (Servicios) y Acceso a Datos (Repositorios).
-2.  **Documentación Automática**: Uso de Swagger y DocFX para generar documentación actualizada.
-3.  **DTOs (Data Transfer Objects)**: Uso de objetos de transferencia para desacoplar la capa de presentación de la base de datos.
+1.  **Geruzatutako Arkitektura**: Erantzukizunen banaketa Kontroladoreen, Negozio Logikaren (Zerbitzuak) eta Datuen Sarbidearen (Biltegiak) artean.
+2.  **Dokumentazio Automatikoa**: Swagger eta DocFX erabiliz dokumentazio eguneratua sortzea.
+3.  **DTOak (Data Transfer Objects)**: Transferentzia-objektuak erabiltzea aurkezpen-geruza datu-basetik desacoplatzeko.
 
-## Requisitos Previos
+## Aurrebaldintzak
 
-Para ejecutar y consumir esta API, se requiere:
+API hau exekutatu eta kontsumitzeko, honako hauek behar dira:
 - .NET 8.0 SDK
-- Base de datos SQL Server (o la configurada en el proyecto)
-- Acceso a la red local para pruebas desde dispositivos móviles.
+- SQL Server datu-basea (edo proiektuan konfiguratutakoa)
+- Sare lokaleko sarbidea gailu mugikorretatik probak egiteko.

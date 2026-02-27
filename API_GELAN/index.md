@@ -1,22 +1,20 @@
-# Documentación de la API - Reto 1
+# API Dokumentazioa - Jatetxe Kudeaketa
 
-## Ciclo Formativo de Grado Superior - 2º Curso
+Ongi etorri jatetxeak kudeatzeko REST APIaren dokumentazio teknikora.
+Proiektu honek jatetxe baten prozesu digitalak kudeatzeko zerbitzuak eskaintzen ditu, .NET Core teknologian oinarrituta.
 
-Bienvenido a la documentación técnica de la API REST para la gestión de restaurantes.
-Este proyecto ha sido desarrollado como parte del primer reto del curso, demostrando capacidades en el desarrollo de servicios web con .NET Core.
+### Proiektuaren Deskribapena
 
-### Descripción del Proyecto
+API honek jatetxe baten digitalizaziorako beharrezkoak diren zerbitzuak eskaintzen ditu, besteak beste:
 
-Esta API proporciona los servicios necesarios para la digitalización de procesos en un restaurante, incluyendo:
+- **Erreserben Kudeaketa**: Erreserbak sortu, kontsultatu eta ezeztatu.
+- **Komandak eta Eskaerak**: Mahaien araberako eskaerak kudeatu eta prestaketa-egoera kontrolatu.
+- **Karta Digitala**: Produktuak, kategoriak eta prezioak administratu.
+- **Stock Kudeaketa**: Osagaien eta produktuen stock-a kontrolatu.
 
-- **Gestión de Reservas**: Creación, consulta y cancelación de reservas.
-- **Comandas y Pedidos**: Gestión de pedidos por mesa y estado de preparación.
-- **Carta Digital**: Administración de productos, categorías y precios.
-- **Gestión de Stock**: Control de ingredientes y stock de productos.
+### Dokumentazioaren Egitura
 
-### Estructura de la Documentación
+Dokumentazioa honako ataletan banatuta dago:
 
-La documentación está dividida en las siguientes secciones:
-
-- **[Introducción](docs/introduction.md)**: Visión general y configuración.
-- **[Referencia de la API](api/)**: Detalles técnicos de los controladores y modelos.
+- **[Sarrera](docs/introduction.md)**: Ikuspegi orokorra eta konfigurazioa.
+- **[API Erreferentzia](api/)**: Kontroladoreen eta modeloen xehetasun teknikoak.
