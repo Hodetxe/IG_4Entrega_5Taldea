@@ -20,10 +20,10 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Restore dependencies
-      run: dotnet restore "1Erronka_API/Erronka1Api.csproj"
+      run: dotnet restore "1Erronka_API/1Erronka_API/Erronka1Api.csproj"
 
     - name: Build
-      run: dotnet build "1Erronka_API/Erronka1Api.csproj" --no-restore
+      run: dotnet build "1Erronka_API/1Erronka_API/Erronka1Api.csproj" --no-restore
 
     - name: Run tests
-      run: dotnet test "1Erronka_API/Erronka1Api.csproj" --no-build --verbosity normal
+      run: dotnet test "1Erronka_API/1Erronka_API/Erronka1Api.csproj" --no-build --verbosity normal
