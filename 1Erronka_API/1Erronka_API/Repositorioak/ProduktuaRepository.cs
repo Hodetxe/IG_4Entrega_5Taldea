@@ -13,12 +13,12 @@ namespace _1Erronka_API.Repositorioak
         }
 
 
-        public Produktua? Get(int id) =>
+        public virtual Produktua? Get(int id) =>
             _session.Query<Produktua>().FirstOrDefault(x => x.Id == id);
 
-        public IList<Produktua> GetAll() => _session.Query<Produktua>().ToList();
+        public virtual IList<Produktua> GetAll() => _session.Query<Produktua>().ToList();
 
-        public void Update(Produktua produktua)
+        public virtual void Update(Produktua produktua)
         {
             _session.Update(produktua); _session.Flush();
         }

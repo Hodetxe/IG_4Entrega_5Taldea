@@ -12,14 +12,14 @@ namespace _1Erronka_API.Repositorioak
             _session = sessionFactory.GetCurrentSession();
         }
 
-        public IList<ProduktuaOsagaia> GetByProduktuaId(int produktuaId)
+        public virtual IList<ProduktuaOsagaia> GetByProduktuaId(int produktuaId)
         {
             return _session.Query<ProduktuaOsagaia>()
                 .Where(po => po.Produktua.Id == produktuaId)
                 .ToList();
         }
 
-        public void UpdateOsagaia(Osagaia osagaia)
+        public virtual void UpdateOsagaia(Osagaia osagaia)
         {
             _session.Update(osagaia);
         }

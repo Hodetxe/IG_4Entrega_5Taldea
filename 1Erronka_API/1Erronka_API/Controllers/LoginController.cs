@@ -4,6 +4,7 @@ using _1Erronka_API.DTOak;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 using System.Security.Cryptography;
+using NHibernate.Linq;
 
 namespace _1Erronka_API.Controllers
 
@@ -16,6 +17,14 @@ namespace _1Erronka_API.Controllers
     [Route("api/[controller]")]
     public class LoginController : ControllerBase
     {
+        private readonly NHibernate.ISession _session;
+
+        public LoginController() : this(NHibernateHelper.OpenSession()) { }
+
+        public LoginController(NHibernate.ISession session)
+        {
+            _session = session;
+        }
         /// <summary>
         /// Erabiltzailearen saioa hasten du.
         /// </summary>
@@ -23,10 +32,8 @@ namespace _1Erronka_API.Controllers
         /// <returns>Saio-hasieraren emaitza eta, arrakasta izanez gero, erabiltzailearen datuak.</returns>
         [HttpPost]
         public IActionResult Login([FromBody] LoginRequest request)
-    {
-        using (var session = NHibernateHelper.OpenSession())
         {
-            var langilea = session.Query<Langilea>()
+            var langilea = _session.Query<Langilea>()
                 .FirstOrDefault(u => u.Langile_kodea == request.Langile_kodea);
 
             if (langilea == null)
@@ -77,7 +84,6 @@ namespace _1Erronka_API.Controllers
                 }
             });
         }
-    }
 
     private string HashPassword(string input)
         {
